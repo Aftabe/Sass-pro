@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Variables */
+/* Colors */
+body {
+  background-color: yellow;
+  font-size: 16px;
+  color: #000000; }
+
+h1 {
+  text-align: center; }
+
+.main-box {
+  min-height: 200px;
+  width: 200px; }
+
+.box-a {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite; }
+
+.box-b {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: green;
+  position: relative;
+  animation: mymove 5s infinite; }
+
+.box-c {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: blue;
+  position: relative;
+  animation: myMove 5s infinite; }
+
+@keyframes mymove {
+  from {
+    top: 0px; }
+  to {
+    left: 200px; } }
+
+@keyframes myMove {
+  from {
+    top: 0px; }
+  to {
+    right: 200px; } }
