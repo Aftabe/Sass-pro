@@ -27,7 +27,8 @@ h1 {
   background: red;
   position: relative;
   animation: mymove 5s infinite;
-  border-radius: 50px; }
+  border-radius: 50px;
+  animation-delay: 2s; }
 
 .box-b {
   width: 100px;
@@ -35,7 +36,8 @@ h1 {
   margin: 10px;
   background: green;
   position: relative;
-  animation: mymove 5s infinite; }
+  animation: mymove 5s infinite;
+  animation-delay: 2s; }
 
 .box-c {
   width: 100px;
@@ -44,6 +46,7 @@ h1 {
   background: blue;
   position: relative;
   animation: myMove 5s infinite;
+  animation-delay: 2s;
   border-radius: 50px; }
 
 @keyframes mymove {
@@ -57,3 +60,29 @@ h1 {
     top: 0px; }
   to {
     right: 200px; } }
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px; }
+
+.new-box {
+  width: 400px;
+  height: 400px;
+  background-color: green; }
+
+.new-box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myAnimation 3s infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes myAnimation {
+  from {
+    top: 0px; }
+  to {
+    top: 300px;
+    background-color: #4fe64f;
+    border-radius: 50px; } }
