@@ -18,13 +18,14 @@ $main-y-dark: rgb(90, 90, 16);
 $main-dark:#000000;
 
 body{
-    background-color: $main-gr-light;
+    background-color: $main-y-dark;
     font-size: 16px;
     color: $main-dark;
 }
 // h1
 h1{
     text-align: center;
+    text-transform: uppercase;
 }
 // Animation
 
@@ -41,6 +42,7 @@ width: 200px;
     background: red;
     position: relative;
     animation: mymove 5s infinite;
+    border-radius: 50px;
   }
 
   .box-b{
@@ -58,6 +60,7 @@ width: 200px;
     background: blue;
     position: relative;
     animation: myMove 5s infinite;
+    border-radius: 50px;
   }
   
   @keyframes mymove {
