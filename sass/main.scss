@@ -43,6 +43,7 @@ width: 200px;
     position: relative;
     animation: mymove 5s infinite;
     border-radius: 50px;
+    animation-delay: 2s;
   }
 
   .box-b{
@@ -52,6 +53,7 @@ width: 200px;
     background: green;
     position: relative;
     animation: mymove 5s infinite;
+    animation-delay: 2s;
   }
   .box-c{
     width: 100px;
@@ -60,6 +62,7 @@ width: 200px;
     background: blue;
     position: relative;
     animation: myMove 5s infinite;
+    animation-delay: 2s;
     border-radius: 50px;
   }
   
@@ -70,4 +73,32 @@ width: 200px;
   @keyframes myMove {
     from {top: 0px;}
     to {right: 200px;}
+  }
+  
+  // row
+.row{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+  // new-box
+  .new-box{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+  }
+
+  // Animation for the right box
+  .new-box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: myAnimation 3s infinite;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes myAnimation {
+    from {top: 0px;}
+    to {top: 300px; background-color: $main-gr-light; border-radius: 50px;}
   }
