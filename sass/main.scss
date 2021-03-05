@@ -108,6 +108,9 @@ width: 200px;
   
   @keyframes myAnimation {
     from {top: 0px;}
-    to {top: 300px; background-color: $main-gr-light; border-radius: 50px;}
+    to {top: 300px;
+      //  background-color: $main-gr-light;
+        // border-radius: 50px;
+      }
   }
 
