@@ -78,6 +78,11 @@ h1 {
   position: relative;
   animation: myAnimation 3s infinite;
   animation-fill-mode: forwards; }
+  .new-box .clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 @keyframes myAnimation {
   from {
