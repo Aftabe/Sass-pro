@@ -90,6 +90,10 @@ h1 {
   to {
     top: 300px; } }
 
+.top-border {
+  margin-top: 190px;
+  border-top: double; }
+
 .new-section {
   min-height: 70vh;
   background-color: #5a5a10; }
