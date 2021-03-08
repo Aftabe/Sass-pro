@@ -89,3 +89,7 @@ h1 {
     top: 0px; }
   to {
     top: 300px; } }
+
+.new-section {
+  min-height: 70vh;
+  background-color: #5a5a10; }
