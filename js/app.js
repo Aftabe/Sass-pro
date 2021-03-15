@@ -78,3 +78,4 @@ function drawHand(ctx, pos, length, width) {
     ctx.rotate(-pos);
 }
 var name = document.body.style.color = 'blue';
+document.body.style.backgroundColor = 'grey';
