@@ -16,54 +16,9 @@ h1 {
   text-align: center;
   text-transform: uppercase; }
 
-.main-box {
-  min-height: 200px;
-  width: 200px; }
-
-.box-a {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  background: red;
-  position: relative;
-  animation: mymove 5s infinite;
-  border-radius: 50px;
-  animation-delay: 2s; }
-
-.box-b {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  background: green;
-  position: relative;
-  animation: mymove 5s infinite;
-  animation-delay: 2s; }
-
-.box-c {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  background: #4fe64f;
-  position: relative;
-  animation: myMove 5s infinite;
-  animation-delay: 2s;
-  border-radius: 50px; }
-
-@keyframes mymove {
-  from {
-    top: 0px; }
-  to {
-    left: 180px; } }
-
-@keyframes myMove {
-  from {
-    top: 0px; }
-  to {
-    right: 200px; } }
-
 .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 10px; }
 
 .new-box {
