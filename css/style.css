@@ -13,7 +13,7 @@ body {
   color: #000000; }
 
 .body-frame {
-  border: 3px solid #f0f0f0;
+  border: 3px solid #e9e0e0;
   height: 10000px; }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
 .new-box {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #d84949;
   position: relative;
   animation: myAnimation 3s infinite;
   animation-fill-mode: forwards; }
