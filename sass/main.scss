@@ -25,7 +25,7 @@ body{
 
 // Body frame
 .body-frame{
-  border: 3px solid rgb(240, 240, 240);
+  border: 3px solid rgb(233, 224, 224);
   height: 10000px;
 }
 // h1
@@ -51,7 +51,7 @@ h1{
   .new-box{
     width: 100px;
     height: 100px;
-    background: red;
+    background: #d84949;
     position: relative;
     animation: myAnimation 3s infinite;
     animation-fill-mode: forwards;
