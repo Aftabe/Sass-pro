@@ -19,7 +19,16 @@ body {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 1 0 3px #FF0000, 0 0 5px #0000FF; }
+  text-shadow: 1 0 3px #4d3f3f, 0 0 5px #0000FF;
+  padding: 10px 30px;
+  color: white;
+  border: 3px solid #ee1a1a;
+  display: inline-block;
+  margin: 10px auto;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .row {
   display: flex;
